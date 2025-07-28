@@ -34,7 +34,7 @@ Uses modern backdrop blur effects and subtle transparency to create a smooth and
 
 #### 1. Clone the Repository
 git clone https://github.com/yourusername/gust-weather-app.git 
-<p>cd gust-weather-app</p>
+```cd gust-weather-app```
 
 #### 2. Install Dependencies
 npm install
