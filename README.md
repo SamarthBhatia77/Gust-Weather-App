@@ -1,6 +1,6 @@
 ### 🌬️ Gust - Weather App
 
-Gust is a sleek and responsive weather application built using React, Next.js, and Tailwind CSS. It provides live weather updates such as temperature, wind speed, and status icons for cities worldwide — all presented in a clean, modern UI with smooth interactivity.
+Gust is a sleek and responsive weather application built using React, Next.js, and Tailwind CSS. It provides live weather updates such as temperature, wind speed, and status icons for cities worldwide all presented in a clean, modern UI with smooth interactivity.
 
 ### 🖼️ Preview
 
@@ -12,7 +12,7 @@ Gust is a sleek and responsive weather application built using React, Next.js, a
 Enter any city to instantly fetch real-time temperature, wind speed, and weather conditions with intuitive icons.
 
 #### 🌟 Famous Locations
-A curated list of globally recognized cities is preloaded for quick access — get weather details with a single click.
+A curated list of globally recognized cities is preloaded for quick access get weather details with a single click.
 
 #### ➕ Custom Locations
 Users can add their own frequently visited or favorite cities. These are stored locally and persist even after reloads for ease of reuse.
@@ -41,8 +41,8 @@ npm install
 
 #### 3. Add API Key
 Replace the APIkey in your WeatherApp.jsx with your OpenWeatherMap API Key.
-const APIkey = "your_api_key_here";
+<p>const APIkey = "your_api_key_here";</p>
 
 #### 4. Run the App
 npm run dev
-Visit http://localhost:3000 in your browser to view the app.
+<p>Visit http://localhost:3000 in your browser to view the app.</p>
