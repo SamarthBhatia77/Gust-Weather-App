@@ -33,16 +33,16 @@ Uses modern backdrop blur effects and subtle transparency to create a smooth and
 ### 📦 Getting Started
 
 #### 1. Clone the Repository
-git clone https://github.com/yourusername/gust-weather-app.git 
+git clone https://github.com/yourusername/gust-weather-app.git<br>
 ```cd gust-weather-app```
 
 #### 2. Install Dependencies
 npm install
 
 #### 3. Add API Key
-Replace the APIkey in your WeatherApp.jsx with your OpenWeatherMap API Key.
-<p>const APIkey = "your_api_key_here";</p>
+Replace the APIkey in your WeatherApp.jsx with your OpenWeatherMap API Key.<br>
+```const APIkey = "your_api_key_here";```
 
 #### 4. Run the App
-npm run dev
-<p>Visit http://localhost:3000 in your browser to view the app.</p>
+```npm run dev```<br>
+Visit http://localhost:3000 in your browser to view the app.
