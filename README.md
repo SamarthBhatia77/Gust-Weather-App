@@ -2,6 +2,10 @@
 
 Gust is a sleek and responsive weather application built using React, Next.js, and Tailwind CSS. It provides live weather updates such as temperature, wind speed, and status icons for cities worldwide — all presented in a clean, modern UI with smooth interactivity.
 
+### 🖼️ Preview
+
+![App Preview](./public/preview.png)
+
 ### 🚀 Features
 
 #### 🔍 Live Weather Data
@@ -25,9 +29,6 @@ Uses modern backdrop blur effects and subtle transparency to create a smooth and
 | **Tailwind CSS** | Utility-first CSS styling |
 | **OpenWeather API** | Weather data integration |
 
-### 🖼️ Preview
-
-![App Preview](./public/preview.png)
 
 ### 📦 Getting Started
 
