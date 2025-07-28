@@ -34,7 +34,7 @@ export default function WeatherApp() {
   const [icon, setIcon] = useState("");
 
 
-  const APIkey="18ddb6a2d356f29a69170d60dbd3c779";
+  const APIkey="";
   async function FetchData(city) {
     try {
       // Step 1: Get city coordinates
