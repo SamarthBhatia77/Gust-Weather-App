@@ -37,7 +37,7 @@ export default function WeatherApp() {
   const APIkey="";
   async function FetchData(city) {
     try {
-      // Step 1: Get city coordinates
+      
       const geoURL = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${APIkey}`;
       const geoResponse = await fetch(geoURL);
       const geoData = await geoResponse.json();
@@ -49,12 +49,12 @@ export default function WeatherApp() {
 
       const { lat, lon } = geoData[0];
 
-      // Step 2: Use lat/lon to fetch weather data
+      
       const weatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${APIkey}&units=metric`;
       const weatherResponse = await fetch(weatherURL);
       const weatherData = await weatherResponse.json();
 
-      console.log(weatherData); // Use this data to update UI
+      console.log(weatherData); 
       setLatitude(weatherData.coord.lat);
       setLongitude(weatherData.coord.lon);
       setTemp(weatherData.main.temp);
